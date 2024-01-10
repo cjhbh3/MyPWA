@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CJ's PWA</title>
-
+    <!-- bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/10.7.1/firebase-app-compat.js"></script>
     <!-- include only the Firebase features as you need -->
@@ -22,14 +23,29 @@
       to avoid connecting the SDK to running emulators.
     -->
     <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
-    <style media="screen">
-    </style>
+    <!-- bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
-  <body>
-    <div id="message">
-      <h1>CJ's Progressive Web App</h1>
-      <p>Hello World!</p>
+  <body class="d-flex h-100 text-center text-bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div>
+          <h3 class="float-md-start mb-0">CJ's PWA</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link fw-bold py-1 px-2 active" aria-current="page" href="#">Home</a>
+            <a class="nav-link fw-bold py-1 px-2 active" aria-current="page" href="#">Employment</a>
+            <a class="nav-link fw-bold py-1 px-2 active" aria-current="page" href="#">Projects</a>        
+          </nav>
+        </div>
+      </header>
+
+      <main class="px-3">
+        <h1>CJ Hess</h1>
+        <p class="lead">Professional idiot working IT.</p>
+        <p class="lead">
+          <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">You can click but this isn't done</a>
+        </p>
+      </main>
     </div>
   </body>
 </html>

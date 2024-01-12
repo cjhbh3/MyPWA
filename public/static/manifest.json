@@ -1,0 +1,9 @@
+{
+    "name": "CJ Hess",
+    "short_name": "CJ",
+    "theme_color": "rgba(54,54,54,0.87)",
+    "background_color": "#43637d",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "https://cj-pwa.web.app/"
+  }

@@ -1,1 +1,19 @@
 /* Nothing here yet, but like eventually. */
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36pt;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+}

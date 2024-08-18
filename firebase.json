@@ -11,6 +11,10 @@
         "source": "**",
         "destination": "/index.html"
       }
-    ]
+    ],
+    "github": {
+      "repo": "cjhbh3/MyPWA",
+      "branch": "main"
+    }
   }
 }

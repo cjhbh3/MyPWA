@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "cj-pwa"
-  }
+    "default": "cj-pwa",
+    "Main": "cj-pwa"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }

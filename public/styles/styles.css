@@ -1,6 +1,17 @@
 /* Nothing here yet, but like eventually. */
+:root {
+  /* Variable colors for Dark Mode functionality */
+  --light-bg-color: rgba(255, 255, 255, 0.884);
+  --dark-bg-color: rgb(10, 14, 39);
+  --light-font-color: black;
+  --dark-font-color: white;
+}
+
 body {
     margin: auto;
+    text-align: center;
+    color: var(--light-font-color);
+    background-color: var(--light-bg-color);
 }
 
 p {
@@ -10,15 +21,34 @@ p {
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 36pt;
+    font-size: 30pt;
 }
 
 h2 {
     font-family: 'Times New Roman', Times, serif;
+    font-size: 24pt;
 }
 
 h3 {
     font-family: 'Times New Roman', Times, serif;
+    font-size: 18;
+}
+
+ul.horizontal-nav li {
+  float: left;
+}
+
+ul.horizontal-nav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 52px;
+}
+
+ul.horizontal-nav li a.active {
+  background-color: rgb(175, 4, 4);
 }
 
 .page-buttons {
@@ -30,20 +60,47 @@ h3 {
   text-align: center;
 }
 
-.project-tile {
+.horizontal-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  outline: auto;
+  outline-color: rgb(175, 4, 4);
+}
+
+.tile {
   width: 50%;
   padding: 5px;
   border: 15px;
   border-radius: 5px;
-  background-color: rgba(197, 24, 1, 0.904);
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  color: black;
+  background-color: white;
+  outline: auto;
+  outline-color: rgb(175, 4, 4);
+}
+
+.page-title {
+  color: #cccccc;
+}
+
+.text-highlight {
+  text-align: left;
+  background-color: rgb(185, 185, 185);
 }
 
 .text-body-secondary {
   --bs-text-opacity: 1;
   color: white !important;
+}
+
+.dark-mode {
+  background-color: var(--dark-bg-color);
+  color: var(--dark-font-color);
 }
 
 /* Extra small devices (phones, 600px and down) */

@@ -70,6 +70,25 @@ ul.horizontal-nav li a.active {
   outline-color: rgb(175, 4, 4);
 }
 
+.row {
+  display: flex;
+  width: 50%;
+  padding: 5px;
+  border: 15px;
+  border-radius: 5px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  background-color: white;
+  outline: auto;
+  outline-color: rgb(175, 4, 4);
+}
+
+.column {
+  flex: 50%;
+}
+
 .tile {
   width: 50%;
   padding: 5px;

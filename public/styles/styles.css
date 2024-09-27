@@ -124,25 +124,48 @@ ul.horizontal-nav li a.active {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .example {background: red;}
+    .row {
+      display: flex;
+      width: 75%;
+      padding: 5px;
+      border: 15px;
+      border-radius: 5px;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      color: black;
+      background-color: white;
+      outline: auto;
+      outline-color: rgb(175, 4, 4);
+    }
+
+    .tile {
+      width: 75%;
+      padding: 5px;
+      border: 15px;
+      border-radius: 5px;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      color: black;
+      background-color: white;
+      outline: auto;
+      outline-color: rgb(175, 4, 4);
+    }
   }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .example {background: green;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .example {background: blue;}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .example {background: orange;}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .example {background: pink;}
 }
